@@ -1,0 +1,97 @@
+body{
+    padding: 0% 10% 0% 10%;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.entryContainer {
+    margin: 1rem;
+    padding: 1rem;
+    border: 0.1rem solid black;
+    background-color: beige;
+}
+.deleteButton{
+    background-color: red;
+    border-color: white;
+    color: white;
+    border-radius: 1rem;
+}
+.formContainer {
+    margin: 1rem;
+    padding: 1rem;
+    border: 0.1rem solid black;
+    background-color: beige;
+}
+.greenButton {
+    background-color: green;
+    border-color: white;
+    color: white;
+    border-radius: 1rem;
+}
+.topButtonContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+.signoutButton {
+    background-color: red;
+    border-color: white;
+    color: white;
+    border-radius: 1rem;
+    width: 5rem;
+    height: 3rem;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
